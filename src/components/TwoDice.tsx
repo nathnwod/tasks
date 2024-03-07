@@ -13,7 +13,7 @@ export function d6(): number {
 
 export function TwoDice(): JSX.Element {
     const [leftDie, setLeftDie] = useState(1);
-    const [rightDie, setRightDie] = useState(2); // Initial values are different
+    const [rightDie, setRightDie] = useState(2);
 
     const rollLeftDie = () => setLeftDie(d6());
     const rollRightDie = () => setRightDie(d6());
