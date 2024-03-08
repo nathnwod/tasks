@@ -11,17 +11,17 @@ const PEOPLE = [
 ];
 
 export function ChooseTeam(): JSX.Element {
-    const [allOptions, setAllOptions] = useState<string[]>(PEOPLE);
+    const [allOptions] = useState<string[]>(PEOPLE);
     const [team, setTeam] = useState<string[]>([]);
 
     function chooseMember(newMember: string) {
         if (!team.includes(newMember)) {
-            setTeam([...team, newMember]); // Correctly updates the team array
+            setTeam([...team, newMember]);
         }
     }
 
     function clearTeam() {
-        setTeam([]); // Correctly clears the team array
+        setTeam([]);
     }
 
     return (

@@ -66,8 +66,6 @@ function App(): JSX.Element {
             </p>
             <p>Nathan Wood</p>
             <hr></hr>
-            {/* <DoubleHalf></DoubleHalf> */}
-            <hr></hr>
             <ChooseTeam></ChooseTeam>
             <hr></hr>
             <ColoredBox></ColoredBox>
