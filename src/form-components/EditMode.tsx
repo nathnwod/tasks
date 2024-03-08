@@ -2,18 +2,15 @@ import React, { useState } from "react";
 
 export function EditMode(): JSX.Element {
     const [isEditMode, setIsEditMode] = useState(false);
-    const [name, setName] = useState("Your Name"); // Set initial name explicitly
+    const [name, setName] = useState("Your Name");
     const [isStudent, setIsStudent] = useState(true);
 
-    // Handle change to edit mode using a checkbox styled or behaving as a switch
     const handleEditModeChange = (event: React.ChangeEvent<HTMLInputElement>) =>
         setIsEditMode(event.target.checked);
 
-    // Handle name change
     const handleNameChange = (event: React.ChangeEvent<HTMLInputElement>) =>
         setName(event.target.value);
 
-    // Toggle student status
     const handleStudentStatusChange = () => setIsStudent(!isStudent);
 
     return (
