@@ -8,7 +8,7 @@ import { StartAttempt } from "./components/StartAttempt";
 import { TwoDice } from "./components/TwoDice";
 import { CycleHoliday } from "./components/CycleHoliday";
 import { Counter } from "./components/Counter";
-import { DoubleHalf } from "./bad-components/DoubleHalf";
+// Removed the unused DoubleHalf import
 import { ColoredBox } from "./bad-components/ColoredBox";
 import { ShoveBox } from "./bad-components/ShoveBox";
 import { ChooseTeam } from "./bad-components/ChooseTeam";
@@ -20,7 +20,7 @@ function App(): JSX.Element {
                 UD CISC275 with React Hooks and TypeScript
                 <p>Hello World</p>
             </header>
-            n<h1>Hello World</h1>
+            <h1>Hello World</h1>
             <img
                 src={PinheadLarry}
                 alt="A picture of Dirty Dan from SpongeBob!"
