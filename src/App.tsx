@@ -8,7 +8,6 @@ import { StartAttempt } from "./components/StartAttempt";
 import { TwoDice } from "./components/TwoDice";
 import { CycleHoliday } from "./components/CycleHoliday";
 import { Counter } from "./components/Counter";
-// Removed the unused DoubleHalf import
 import { ColoredBox } from "./bad-components/ColoredBox";
 import { ShoveBox } from "./bad-components/ShoveBox";
 import { ChooseTeam } from "./bad-components/ChooseTeam";
@@ -25,7 +24,6 @@ function App(): JSX.Element {
                 UD CISC275 with React Hooks and TypeScript
                 <p>Hello World</p>
             </header>
-<<<<<<< HEAD
             <h1>Hello World</h1>
             <img
                 src={PinheadLarry}
@@ -71,7 +69,6 @@ function App(): JSX.Element {
                 automatically reload.
             </p>
             <p>Nathan Wood</p>
-=======
             <hr></hr>
             <CheckAnswer expectedAnswer="42"></CheckAnswer>
             <hr></hr>
@@ -86,8 +83,6 @@ function App(): JSX.Element {
                 expectedAnswer="b"
             ></MultipleChoiceQuestion>
             <hr></hr>
-            {/* <DoubleHalf></DoubleHalf> */}
->>>>>>> upstream/task-forms
             <hr></hr>
             <ChooseTeam></ChooseTeam>
             <hr></hr>
